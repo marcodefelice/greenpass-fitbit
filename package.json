@@ -1,0 +1,20 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~4.3.0"
+  },
+  "fitbit": {
+    "appUUID": "cafa3ed1-3273-4e47-b2d4-b15221066e06",
+    "appType": "app",
+    "appDisplayName": "GreenPass APP",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#607d8b",
+    "requestedPermissions": [],
+    "buildTargets": [],
+    "i18n": {
+      "en-US": {
+        "name": "GreenPass APP"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}
