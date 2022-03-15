@@ -43,8 +43,10 @@ function saveSettings() {
 
 function applySettings() {
   var imageBackground = document.getElementById("greenpass")
+  var textArea = document.getElementById("welcometext")
   if (mySettings.bg) {
     imageBackground.image = mySettings.bg;
+    textArea.text = ""
   }
   display.on = true;
 }
